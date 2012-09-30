@@ -26,8 +26,8 @@ class TestBadPerson(unittest.TestCase):
 
 
     def test_full_name(self):
-        full_name = 'STEVE Treefort'
-        self.assertEqual(self.person.fullName(), full_name, 'Incorrectly build full name of')
+        full_name = 'Steve Treefort'
+        self.assertEqual(self.person.fullName(), full_name, 'Incorrectly full name.')
 
 
 if __name__ == '__main__':
