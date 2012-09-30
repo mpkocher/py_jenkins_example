@@ -1,0 +1,12 @@
+NoseXUnit==0.3.3
+Pygments==1.5
+cov-core==1.7
+coverage==3.5.2
+kid==0.9.6
+logilab-astng==0.24.0
+logilab-common==0.58.1
+nose==1.2.0
+nose-cov==1.6
+pylint==0.25.2
+wsgiref==0.1.2
+yolk==0.4.3
