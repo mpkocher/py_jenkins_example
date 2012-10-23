@@ -15,6 +15,9 @@ class Person(object):
     def say(self):
         return "Hello {x}".format(x=self.name)
 
+    def bark(self):
+        return "Bark. Bark. I am {x}".format(x=self.name)
+
     def summary(self):
         """Simple Summary of the Person"""
         outs = []
