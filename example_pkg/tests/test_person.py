@@ -14,6 +14,10 @@ class TestPerson(unittest.TestCase):
     def test_age(self):
         self.assertEqual(self.person.age, 20)
 
+    def test_bark(self):
+        bark_string = self.person.bark()
+        self.assertIsNotNone(bark_string)
+
     def cleanUp(self):
         del self.person
 
